@@ -1,0 +1,13 @@
+material unit_box/Diffuse
+{
+  technique
+  {
+    pass
+    {      
+      texture_unit
+      {
+        texture FollowMeSkinSat.002.png
+      }            
+    }
+  }
+}
