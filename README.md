@@ -36,6 +36,7 @@ This code contain 3 main part:
 2. Image processing: This project uses SURF feature detection to balance between precision and computing cost. Harris feature is not used due to the non-scalling property,this makes the feature not effective. ORB feature is not as good as SURF feature at longer distance, this reduce the range of the robot and affect the overal performance of the project. 
 3. Robot control: Robot is controlled via ROS message, the linear speed and angular speed is set and send from matlab, all the speed is controlled by the PID control.
 
+The program will run endlessly in a while loop, you can move the QR code and the robot will automatically navigate.
 ### Contribution
 Vu Duy Nguyen: *40%*
 
