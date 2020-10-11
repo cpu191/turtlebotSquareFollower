@@ -308,13 +308,13 @@ try
             signy = -1;
         end
     end
-    Before= IntersectionPointW(2)-Tranbot(2)
+    %Before= IntersectionPointW(2)-Tranbot(2)
     while (1)
         msgOdo = receive(odom,10);
         Tranbot = [msgOdo.Pose.Pose.Position.X msgOdo.Pose.Pose.Position.Y msgOdo.Pose.Pose.Position.Z];
         distance_error =  sqrt((Tranbot(1)-IntersectionPointW(1))^2 + (Tranbot(2)-IntersectionPointW(2))^2);
         
-         After = IntersectionPointW(2)-Tranbot(2)
+         %After = IntersectionPointW(2)-Tranbot(2)
         try
             if signx == 1 && (abs(IntersectionPointW(1)-Tranbot_original(1)) > 0.1 || abs(Tranbot_original(2)-IntersectionPointW(2)) < 0.001)
                 if IntersectionPointW(1)-Tranbot(1) < 0
