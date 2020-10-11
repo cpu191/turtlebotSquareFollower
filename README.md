@@ -16,7 +16,7 @@ This project use MATLAB and ROS environment to control a turtlebot 3 waffle. By 
 <code> export TURTLEBOT3_MODEL=waffle </code>
 
 <h2><b>Setup and Launching the simulation</b></h2>
-Copy the files in the turtlebot3_gazebos.zip into the path: catkin_ws/src
+Copy the files in the turtlebot3_gazebos.zip into the path: catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo
 Before launch,the files have to be sourced:
 <code>source devel/setup.bash</code>
 
